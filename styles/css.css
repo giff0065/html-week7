@@ -73,5 +73,38 @@ p{
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #container{
     width: 1024px;
-    margin: 20px;
+    margin: 0 auto;
+}
+section{
+    margin: 15px;
+    border:2px solid chartreuse;
+    padding: 20px 10px 15px 10px; /**Top, right, bottom, left**/
+}
+.header-image{
+    width: 100%;
+}
+/*
+.larger span{
+    width: 200px;
+    height: 100px;
+    margin: 25px;
+    padding: 15px;
+    border: 2px solid yellowgreen;
+
+}*/
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                     NAV
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+nav{
+    height: 44px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #220044;
+}
+
+nav il{
+    float:left;
 }
