@@ -108,3 +108,33 @@ nav{
 nav il{
     float:left;
 }
+ nav a{
+     display: block;
+     text-align:center;
+     margin:0 5px ;
+     text-decoration: none;
+     width: 142px;
+     height: 44px;
+ }
+
+ nav li a span{
+     display: block;
+     float: left;
+     font-size: 1.6rem;
+     line-height: 2.5em;
+     color: #0FF;
+ }
+ nav a img{
+    width: 22px;
+    padding: 0.7em 5px 0 15px;
+    float:left;
+}
+
+
+ nav a:hover .current{
+     background-color: #220044;
+     border-top-right-radius: 15px;
+     border-top-left-radius: 15px;
+ }
+
+ 
